@@ -18,12 +18,12 @@
   <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://18.217.11.212:8081/repository/maven-releases/</url>
+    <url>http://ec2-18-188-53-21.us-east-2.compute.amazonaws.com:8081/#admin/repository/repositories:maven-snapshots:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://18.217.11.212:8081/repository/maven-snapshots/</url>
+    <url>http://ec2-18-188-53-21.us-east-2.compute.amazonaws.com:8081/#admin/repository/repositories:maven-snapshots:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
